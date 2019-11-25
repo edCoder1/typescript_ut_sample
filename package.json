@@ -4,7 +4,8 @@
   "description": "UT in Typescript sample",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cross-env TS_NODE_FILES=true mocha -exit -require ts-node/register -colors test/**/*.ts",
+    "coverage": "nyc npm run test"
   },
   "repository": {
     "type": "git",
