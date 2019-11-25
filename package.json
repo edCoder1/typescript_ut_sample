@@ -1,0 +1,34 @@
+{
+  "name": "typescript_ut_sample",
+  "version": "1.0.0",
+  "description": "UT in Typescript sample",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edCoder1/typescript_ut_sample.git"
+  },
+  "keywords": [
+    "UT",
+    "Typescript"
+  ],
+  "author": "edCoder1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edCoder1/typescript_ut_sample/issues"
+  },
+  "homepage": "https://github.com/edCoder1/typescript_ut_sample#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.5",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.12",
+    "chai": "^4.2.0",
+    "cross-env": "^5.2.0",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
